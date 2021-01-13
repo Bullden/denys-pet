@@ -1,0 +1,32 @@
+.home-banner-wrapper {
+    height: 300px;
+    display: flex;
+    width: 100%;
+}
+.home-banner {
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid #e2e2e2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+.home-banner-text {
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: 800;
+}
+.home-banner-text :nth-child(2) {
+    font-size: 17px;
+}
+.home-content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
